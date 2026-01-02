@@ -1,0 +1,22 @@
+[project]
+name = "spatialis"
+version = "0.0.1"
+description = "Remote Sensing and Earth Observation library"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Telluris Labs", email = "info@tellurislabs.io" }
+]
+keywords = ["remote-sensing", "earth-observation", "raster", "imagery", "satellite", "geospatial", "spectral", 
+"multispectral", "hyperspectral", "bands", "image-processing", "geoprocessing", "geodata", "geoinformatics", "python"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
